@@ -14,7 +14,7 @@ class Singelton(Borg):
 		return str(self._shared_state)
 
 if __name__ == "__main__":
-	x = Singelton(HTTP="Hyper Text Transfer Proocol")
+	x = Singelton(HTTP="Hyper Text Transfer Protocol")
 	y = Singelton(SNMP="Simple Network Management Protocol")
 
 	print(x)
