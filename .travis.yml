@@ -1,5 +1,5 @@
 os: linux
-dist: mint
+dist: xenial
 branches:
   only:
     - master
